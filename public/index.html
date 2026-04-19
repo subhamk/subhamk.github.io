@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Subham Kailthya - Bio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Subham Kailthya – Bio">
+  <meta property="og:description" content="Short bio">
+  <meta property="og:type" content="website">
+</head>
+
+<body>
+
+  <!-- Dark mode toggle fixed top-right -->
+  <label class="toggle-wrapper fixed-toggle" aria-label="Toggle dark mode">
+    <input type="checkbox" id="dark-toggle">
+    <span class="toggle-switch"></span>
+  </label>
+
+  <!-- Floating CV button -->
+  <a href="docs/cv.pdf" class="cv-button" target="_blank">CV</a>
+
+  <!-- Sticky mini-nav -->
+  <nav class="mini-nav" id="mini-nav">
+    <div class="mini-nav-inner">
+      <a href="#bio">01 Bio</a>
+      <a href="#publications">02 Publications</a>
+      <a href="#ongoing">03 Ongoing Work</a>
+      <a href="#teaching">04 Teaching</a>
+      <a href="#contact">05 Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- 01 Bio -->
+    <section id="bio" class="section-card">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2>Bio</h2>
+      </div>
+
+      <div class="bio-flex">
+        <div class="bio-left">
+          <img src="images/headshot.jpg" alt="Headshot" class="headshot">
+
+          <div class="icon-links">
+            <a href="https://www.linkedin.com/in/skailthya" target="_blank" class="icon-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://orcid.org/0000-0002-6961-2502" target="_blank" class="icon-link" aria-label="ORCID">
+              <i class="fab fa-orcid"></i>
+            </a>
+            <a href="https://x.com/subham_01" target="_blank" class="icon-link" aria-label="X (Twitter)">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="bio-right">
+          <h1 class="name-title">Subham Kailthya</h1>
+          <p class="affiliation">Assistant Professor (Education) · Economics · University of Warwick</p>
+
+          <p class="summary">
+            Applied microeconomist focusing on political economics, public policy evaluation, and development
+            economics. My work combines microeconometric methods with rich administrative and geospatial data.
+          </p>
+
+          <p class="first-line-indent">
+            I'm currently leading a BA/Leverhulme SRG funded project that examines how weather shocks affect
+            farmer's climate-risk perception and its effect on agricultural productivity in Vietnam using a combination
+            of
+            lab-in-the-field
+            experiment and detailed administrative data.
+          </p>
+
+          <p class="first-line-indent">
+            At Warwick, I teach <i>statistical techniques</i> (UG) and <i>econometrics</i> (PG). I'm the
+            Director of
+            Student Experience and Progression for economics postgraduates.
+          </p>
+
+          <h3 class="subheading">Education</h3>
+          <ul class="edu-list">
+            <li>Ph.D. Economics, University of Reading, UK</li>
+            <li>M.Sc. Economics, Madras School of Economics, India</li>
+            <li>B.A. Economics, Fergusson College, Pune, India</li>
+          </ul>
+
+
+          <h3 class="subheading">Research Interests</h3>
+          <ul class="interests-list">
+            <li>Applied Microeconometrics</li>
+            <li>Political Economics</li>
+            <li>Public Policy Evaluation</li>
+            <li>Development Economics</li>
+          </ul>
+
+          <div class="tab-links bio-bottom-links">
+            <a class="tab" href="https://profiles.warwick.ac.uk/u1874478-subham-kailthya" target="_blank">University
+              Profile</a>
+            <!-- <a class="tab" href="cv.pdf" target="_blank">CV (PDF)</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 Publications -->
+    <section id="publications" class="section-card">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2>Publications</h2>
+      </div>
+
+      <div class="pub-grid">
+        <article class="pub-item">
+          <div class="pub-main">
+
+            <!-- 01 pub item   -->
+            <p class="pub-line">
+              &#9642 <strong>Political Competition and Public Healthcare: Evidence from India</strong>, <i>
+                World Development
+              </i>
+              (with Kambhampati U.)
+            </p>
+            <div class="pub-meta-col">
+              <span class="pub-year">2022</span>
+            </div>
+            <!-- Optional key figure -->
+            <div class="pub-figure">
+              <!-- <img src="figures/paper1.png" alt="Key figure for paper 1"> -->
+              <div class="fig-grid">
+                <img src="figures/summ_acc.png" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+              </div>
+              <!-- Right-indented abstract -->
+              <details class="abstract-block">
+                <summary>Abstract</summary>
+                <p>
+                  In this paper, we examine the causal effect of political competition on public provision of
+                  healthcare. Specifically, we
+                  investigate whether the effect of political competition on more visible public goods (e.g. health
+                  centre access) differs
+                  from its impact on less visible public goods (e.g. health centre capacity such as doctors, medical
+                  supplies, etc.).
+                  Using granular data from three recent waves of the Indian District Level Household Survey (DLHS)
+                  during 2002-2013 and an
+                  instrumental variable approach, we find that incumbents respond to electoral competition, measured as
+                  the effective
+                  number of parties (ENP), by trading-off less visible health centre capacity for more visible access to
+                  health centres.
+                  We provide suggestive evidence that focusing on more visible health centres boosts the incumbent
+                  party's re-election
+                  prospects providing a clear motive for incumbent's action. In addition, we examine the effect of
+                  election-year cycles
+                  and the role of political alignment in healthcare provision and find compelling evidence of a
+                  political economic
+                  mechanism at work. By contrast, political competition has no measurable impact on key health outcomes.
+                  We conduct
+                  several robustness checks to ensure that our estimates are reliable. Thus, our results suggest that
+                  electoral
+                  competition must be accompanied by strong checks on accountability to improve health outcomes.
+                </p>
+              </details>
+
+              <div class="tab-links">
+                <a class="tab" href="https://doi.org/10.1016/j.worlddev.2022.105820" target="_blank">Link</a>
+                <a class="tab" href="docs/health_panel_pp.pdf" target="_blank">PDF</a>
+              </div>
+
+              <hr class="light-divider">
+
+              <!-- 02 pub item   -->
+              <p class="pub-line">
+                &#9642 <strong>Road to Productivity: Effects of Roads on Total Factor Productivity in Indian
+                  Manufacturing</strong>, <i>Journal of Comparative Economics</i> (with Kambhampati U.)
+              </p>
+
+              <div class="pub-meta-col">
+                <span class="pub-year">2021</span>
+              </div>
+              <!-- Optional key figure -->
+              <div class="pub-figure">
+                <!-- <img src="figures/paper1.png" alt="Key figure for paper 1"> -->
+                <div class="fig-grid">
+                  <img src="figures/ntfp_acf_pdf.png" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+                  <img src="figures/roads.png" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+                </div>
+              </div>
+
+              <!-- Right-indented abstract -->
+              <details class="abstract-block">
+                <summary>Abstract</summary>
+                <p>
+                  A denser road network lowers transport costs and stimulates manufacturing total factor productivity
+                  (TFP). The placement
+                  of roads, however, is likely to be non-random. For identification, we exploit cross-state variation in
+                  the strength of
+                  centre-state partisan alignment that asymmetrically affects road building in aligned states. Using
+                  panel
+                  data on
+                  manufacturing establishments in India from 1998 to 2012, we find that, a 1% increase in road density
+                  raises value-added
+                  TFP by about 0.25%, on average. A closer examination reveals that the effect varies by plant
+                  characteristics and road
+                  type. Younger establishments are more likely to gain from a denser road network with highways playing
+                  a
+                  prominent role.
+                  The results are robust to imperfections in the instrument and to other sensitivity checks.
+                </p>
+              </details>
+
+              <div class="tab-links">
+                <a class="tab" href="https://doi.org/10.1016/j.jce.2021.08.001" target="_blank">Link</a>
+                <a class="tab" href="docs/asi_roads_pp.pdf" target="_blank">PDF</a>
+              </div>
+
+              <hr class="light-divider">
+
+              <!-- 03 pub item   -->
+              <p class="pub-line">
+                &#9642 <strong>"Infrastructural Development and Firm Efficiency in India (1999-2007)</strong>, <i>Review
+                  of
+                  Development and Change</i>, Volume XX, Number 2 (with Hui, N, Kambhampati U.)
+              </p>
+
+              <div class="pub-meta-col">
+                <span class="pub-year">2015</span>
+              </div>
+
+              <!-- Optional key figure -->
+              <div class="pub-figure">
+                <!-- <img src="figures/paper1.png" alt="Key figure for paper 1"> -->
+                <div class="fig-grid">
+                  <img src="figures/RDC_frontier.jpg" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+                  <!-- <img src="figures/roads.png" alt=""> -->
+                </div>
+              </div>
+              <!-- Right-indented abstract -->
+              <details class="abstract-block">
+                <summary>Abstract</summary>
+                <p>
+                  We examine the impact of macroeconomic conditions on firm-level efficiency and output in Indian
+                  manufacturing. Using
+                  firm-level data during 1999-2007, we estimate stochastic frontier production functions for six
+                  different industries. We
+                  find that: first, although the frontier output shifts outwards, the efficiency levels remain largely
+                  stagnant. Secondly,
+                  we find no positive impact of infrastructural improvements on firm efficiency. The results are robust
+                  to using a
+                  synthetic index of macroeconomic variables. Specifically, we find that while infrastructural
+                  improvements relating to
+                  power generation capacity, electrification of railways, bank expansion or road construction are
+                  associated with a rise
+                  in a firm's production potential or its frontier output, it is associated with a decline in actual
+                  firm-level
+                  efficiency. The underlying reason for this puzzle might be a shifting out of the production frontiers
+                  over time at a
+                  pace faster than the rate of increase in output, which is consistent with uneven utilisation of
+                  improvements in
+                  infrastructure amongst firms
+                </p>
+              </details>
+
+              <div class="tab-links">
+                <a class="tab" href="https://doi.org/10.1177/0972266120150207" target="_blank">Link</a>
+                <a class="tab" href="docs/RDC_article.pdf" target="_blank">PDF</a>
+              </div>
+
+
+            </div>
+        </article>
+
+        <!-- Duplicate/extend for more publications as needed -->
+      </div>
+    </section>
+
+    <!-- 03 Ongoing Work -->
+    <section id="ongoing" class="section-card">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2>Ongoing Work</h2>
+      </div>
+
+      <div class="pub-grid">
+        <article class="wp-item">
+          <div class="pub-main">
+
+            <!-- 01 Item -->
+            <p class="pub-line">
+              &#9642 <strong>None-of-the-Above Voting and Policy Responsiveness: Theory and Evidence from India</strong>
+              (with Minh, Tung Le)
+            </p>
+            <div class="pub-meta-col">
+              <span class="pub-tag">Working paper</span>
+            </div>
+            <!-- Optional key figure -->
+            <div class="pub-figure">
+              <!-- <img src="figures/paper1.png" alt="Key figure for paper 1"> -->
+              <div class="fig-grid">
+                <img src="figures/nota-rd.png" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+                <img src="figures/nota-pc.png" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+              </div>
+            </div>
+
+            <!-- Right-indented abstract -->
+            <details class="abstract-block">
+              <summary>Abstract</summary>
+              <p>
+                This paper examines how introducing a None-of-the-Above (NOTA) vote affects the responsiveness of
+                policy-making. We
+                develop a career concerns model in which strategic and engaged voters share common priors about
+                candidate competence but differ in their expressive utility from voting. The model shows that, NOTA
+                induces a trade-off
+                between the twin electoral functions of selection and disciplining. On the one hand, NOTA improves
+                electoral selection
+                in equilibrium by allowing strategic voters to delegate their decision to engaged voters when they
+                receive a noisy
+                signal of incumbent's performance. The incumbent knows this which then promotes further public
+                investments. On the other
+                hand, NOTA votes limit electoral accountability. We show that the overall gain from NOTA depends
+                critically on the
+                quality of voter information and the level of political competition. To test these predictions, we
+                exploit the
+                introduction of NOTA in Indian elections following a Supreme Court mandate. Using assembly
+                constituency-level panel data
+                between 2012 to 2021 and an instrumental variable strategy, we find that NOTA adoption increased log
+                nighttime
+                luminosity, a proxy for local economic activity, by 7.5%-10%. We examine heterogeneity in its impact and
+                find
+                that, consistent with our model, the effect is more pronounced in moderately competitive constituencies
+                and in places
+                with low information quality at the margin. These results demonstrate the instrumental role of
+                expressive voting in
+                improving policy responsiveness and highlight the conditions that foreshadow its efficacy.
+              </p>
+            </details>
+
+            <div class="tab-links">
+              <a class="tab" href="https://dx.doi.org/10.2139/ssrn.5444914" target="_blank">PDF</a>
+            </div>
+
+            <hr class="light-divider">
+
+            <!-- 02 Item -->
+            <p class="pub-line">
+              &#9642 <strong>Vulnerability of Households to Weather Shocks and the Mitigating Role of Workfare
+                Programs</strong>
+              <!-- , with Coauthor X, Coauthor Y (Latest version: March 2024) -->
+            </p>
+            <div class="pub-meta-col">
+              <span class="pub-tag">Working paper</span>
+            </div>
+
+            <!-- Optional key figure -->
+            <div class="pub-figure">
+              <!-- <img src="figures/paper1.png" alt="Key figure for paper 1"> -->
+              <div class="fig-grid">
+                <img src="figures/precip-mon-Jan2014.jpg" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+                <img src="figures/rain-surprises-ihds-2012.jpg" alt="Figure" class="thumbnail" onclick="openZoom(this)">
+              </div>
+            </div>
+
+            <!-- Right-indented abstract -->
+            <details class="abstract-block">
+              <summary>Abstract</summary>
+              <p>
+                Weather shocks pose significant income risks. Using a large household panel survey in India and
+                geo-coded climate data,
+                I find that rainfall shocks reduce income by 7%. It shrinks consumption and assets while increasing
+                household-debt.
+                Rainfall shocks exhibit significant heterogeneity. It predominantly affects the asset-poor and the rural
+                households who
+                typically rely on agriculture or non-agricultural wage incomes. Its impact also varies geographically. I
+                then examine if
+                the roll-out of a major public workfare program improved earnings of its participants in districts that
+                were exposed to
+                rainfall shocks. Using a difference-in-difference strategy and the phased roll-out of the program, I
+                find that it
+                primarily benefits female-headed households. Thus, intensifying workfare programs could increase climate
+                resilience for
+                the most vulnerable population.
+              </p>
+            </details>
+
+            <!-- <div class="tab-links">
+              <a class="tab" href="https://your-working-paper-link.example" target="_blank">PDF</a>
+            </div> -->
+
+            <hr class="light-divider">
+
+            <!-- 03 Item -->
+            <p class="pub-line">
+              &#9642 <strong>Productivity Disrupted: Evidence from a Policy Experiment in India
+              </strong>
+              <!-- , with Coauthor X, Coauthor Y (Latest version: March 2024) -->
+            </p>
+
+            <div class="pub-meta-col">
+              <span class="pub-tag">In-progress</span>
+            </div>
+
+            <hr class="light-divider">
+
+            <!-- 04 Item -->
+            <p class="pub-line">
+              &#9642 <strong>Misallocation, Price Control and Weather Shocks in Vietnam
+              </strong>
+              (with Minh, Tung Le)
+            </p>
+
+            <div class="pub-meta-col">
+              <span class="pub-tag">Project, In-progress</span>
+            </div>
+
+            <hr class="light-divider">
+
+            <!-- 04 Item -->
+            <p class="pub-line">
+              &#9642 <strong> Climate Co-benefits of Workfare Programs </strong>
+            </p>
+
+            <div class="pub-meta-col">
+              <span class="pub-tag">In-progress</span>
+            </div>
+
+        </article>
+
+        <!-- Add more working papers as needed -->
+      </div>
+    </section>
+
+    <!-- 04 Teaching -->
+    <section id="teaching" class="section-card">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2>Teaching</h2>
+      </div>
+
+      <h3 class="teaching-inst">University of Warwick (2025-26)</h3>
+      <ul class="teaching-list">
+        <li>• Statistical Techniques A <span class="pub-tag">ug</span> <span class="pub-tag">module-leader</span>
+        </li>
+        <li>• Econometrics A (Time-Series) <span class="pub-tag">msc</span> <span class="pub-tag">lecturer</span></li>
+        <li>• Econometrics A (Causal Inference) <span class="pub-tag">msc</span> <span class="pub-tag">tutor</span></li>
+        <li>• Supervise quantitative focused UG and MSc dissertations <span class="pub-tag">2019-present</span></li>
+        <!-- <li>• Research in Applied Economics (dissertation) <span class="pub-tag">ug</span> <span
+            class="pub-tag">supervisor</span></li>
+        <li>• MSc dissertation <span class="pub-tag">msc</span> <span class="pub-tag">supervisor</span> -->
+        </li>
+      </ul>
+
+
+      <h3 class="teaching-inst">University of Warwick (previous years)</h3>
+      <ul class="teaching-list">
+        <li>• Econometrics at Warwick Business School (Time-Series) <span class="pub-tag">msc</span> <span
+            class="pub-tag">lecturer</span>
+          <span class="pub-tag">2021-23</span>
+        </li>
+        <li>• Development Economics (Macroeconomics) <span class="pub-tag">ug</span> <span class="pub-tag">tutor</span>
+          <span class="pub-tag">2019-21</span>
+        <li>• Principles of Macroeconomics <span class="pub-tag">ug</span> <span class="pub-tag">tutor</span>
+          <span class="pub-tag">2020</span>
+        </li>
+      </ul>
+
+      <h3 class="teaching-inst">University of Reading (2015-18)</h3>
+      <ul class="teaching-list">
+        <li>• Microfinance <span class="pub-tag">msc</span> <span class="pub-tag">module-leader</span></li>
+        <li>• Microeconomics for Developing Countries <span class="pub-tag">msc</span> <span
+            class="pub-tag">module-leader</span></li>
+        <li>• Macroeconomics for Developing Countries <span class="pub-tag">msc</span> <span
+            class="pub-tag">module-leader</span></li>
+      </ul>
+    </section>
+
+    <!-- 05 Contact -->
+    <section id="contact" class="section-card">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2>Contact</h2>
+      </div>
+
+      <p>
+        The best way to reach me is via my university email. I am happy to discuss research,
+        supervision, and collaboration opportunities.
+      </p>
+      <button id="contact-button">Contact me</button>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Subham Kailthya</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#bio">Bio</a>
+        <a href="#publications">Publications</a>
+        <a href="#ongoing">Ongoing Work</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/skailthya" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://orcid.org/0000-0002-6961-2502" target="_blank" aria-label="ORCID">
+          <i class="fab fa-orcid"></i>
+        </a>
+        <a href="https://x.com/subham_01" target="_blank" aria-label="X (Twitter)">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+
+  <!-- zoom figure related images -->
+  <div id="zoomModal" onclick="closeZoom()">
+    <img id="zoomedImage" alt="">
+  </div>
+
+</body>
+
+</html>
