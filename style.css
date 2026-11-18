@@ -100,10 +100,12 @@ body.dark .section-card {
   width: 240px;
   height: 300px;
   object-fit: cover;
+  object-position: 30% 50%;
   border-radius: 10px;
   border: 2px solid #d0d4dd;
   display: block;
 }
+
 
 .icon-links {
   margin-top: 1rem;

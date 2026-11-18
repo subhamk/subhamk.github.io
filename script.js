@@ -3,7 +3,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 // Contact button
 document.getElementById("contact-button").addEventListener("click", function () {
-  const email = "Subham.Kailthya@warwick.ac.uk";
+  const email = "Subham.Kailthya@economics.ox.ac.uk";
   const subject = encodeURIComponent("Contact from your academic website");
   const body = encodeURIComponent("Dear [Your Name],\n\n");
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
